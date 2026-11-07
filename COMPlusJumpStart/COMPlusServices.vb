@@ -1,10 +1,8 @@
 ﻿Imports System.EnterpriseServices
 Imports System.Reflection
 
-'Nombre de la aplicación COM+
 <Assembly: ApplicationName("ComPlusExample")>
 
-'Ensamblado de nombre seguro
 <Assembly: AssemblyKeyFile("bin/ComPlusExample.snk")>
 
 <Transaction(TransactionOption.Required)>
